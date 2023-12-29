@@ -1,0 +1,320 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass{article}
+\usepackage[margin=2.5cm]{geometry} % 设置边距为 2.5cm
+\usepackage{amsmath}
+\everymath{\displaystyle}
+\everydisplay{\displaystyle}
+
+\usepackage{fancyhdr} % 页脚设置
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyfoot[C]{第\thepage 页 共\pageref{LastPage}页}
+
+\usepackage{multicol} %用于实现在同一页中实现不同的分栏
+
+\usepackage[UTF8]{ctex}
+
+\usepackage{datetime} % 使用 datetime 宏包来格式化日期
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+urlcolor=blue,
+citecolor=blue
+} 
+\usepackage{tocloft} % 加载宏包
+
+\usepackage{enumitem} % 使用enumitem包来自定义列表项
+\newcounter{myitemcounter} % 创建一个名为myitemcounter的计数器
+\setcounter{myitemcounter}{0} % 初始化计数器的值为0
+
+
+\title{关于椭圆的92个二级公式}
+\author{CjB}
+\newdateformat{chinesedate}{\THEYEAR 年\THEMONTH 月\THEDAY 日}
+\date{\chinesedate\today}
+
+\setlength{\parindent}{0pt} % 取消段落缩进
+
+
+
+\begin{document}
+\maketitle % 生成标题
+
+\tableofcontents % 生成目录
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\section{\href{https://www.bilibili.com/video/BV12h41147FS/?spm_id_from=333.999.top_right_bar_window_history.content.click&vd_source=9b93cf0c44112a0e78e9ab65807c27c8}{关于椭圆的92个二级公式}}
+
+\begin{enumerate}[label=\arabic*.] % 使用enumitem包来定义自定义标签，\arabic*表示使用阿拉伯数字并自动编号
+
+\begin{multicols}{3} % 分三栏 若花括号中为3则是分三列
+
+\item $\left| PF_1 \right| + \left| PF_2 \right| = 2a$.
+
+\item 标准方程$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$.
+
+\item $\displaystyle\frac{PF_1}{d_1}=e < 1$.
+
+\end{multicols}
+
+\item 点$P$处的切线$PT$平分$\triangle PF_1F_2$在点$P$处的外角.
+
+\item $PT$平分$\triangle PF_1F_2$在点$P$处的外角，则焦点在直线$PT$上的射影$H$点的轨迹是以长轴为直径的圆，除去长轴的两个端点.
+
+\item 以焦点弦$PQ$为直径的圆必与对应准线相离.
+
+\item 以焦点半径$PF_1$为直径的圆必与以长轴为直径的圆内切.
+
+\item 设$A_1$、$A_2$为椭圆的左右顶点，则$\triangle PF_1F_2$在边$PF_2$（或$PF_1$）上的旁切圆，必与$A_1A_2$所在的直线切于$A_1$（或$A_2$）.
+
+\item 设椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的两个顶点为$A_1\left(-a,0\right)$，$A_2\left(a,0\right)$，与$y$轴平行的直线交椭圆于点$P_1$、$P_2$时，$A_1P_1$与$A_2P_2$交点的轨迹方程是$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 $. 
+
+\item 若$P_0\left(x_0,y_0\right)$在椭圆$\displaystyle\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$上，则过$P_0$的椭圆的切线方程是$\frac{x_0x}{a^2} + \frac{y_0y}{b^2} = 1$.
+
+\item 若$P_0\left(x_0,y_0\right)$在椭圆$\displaystyle\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$外，则过$P_0$作椭圆的两条切线切点分别为$P_1$、$P_2$，则切点弦$P_1P_2$的直线方程是$\displaystyle\frac{x_0x}{a^2} + \frac{y_0y}{b^2} = 1$.
+
+\item $AB$是椭圆$\displaystyle\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 $的不平行于对称轴的弦，$M$为$AB$的中点，则$k_{OM} \cdot k_{AB} = -\frac{b^2}{a^2}$. 
+
+\item 若$P_0\left(x_0,y_0\right)$在椭圆$\displaystyle\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$内，则被$P_0\left(x_0,y_0\right)$所平分的中点弦的方程是$\frac{x_0x}{a^2} + \frac{y_0y}{b^2} = \frac{x_0^2}{a^2} + \frac{y_0^2}{b^2}$.
+
+\item 若$P_0\left(x_0,y_0\right)$在椭圆$\displaystyle\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$内，则过$P_0\left(x_0,y_0\right)$的弦的中点的轨迹方程是$\frac{x^2}{a^2} + \frac{y^2}{b^2} = \frac{x_0x}{a^2} + \frac{y_0y}{b^2}$.
+
+\item 若$PQ$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上对于中心张直角的弦，则$\frac{1}{r_1} + \frac{1}{r_2} = \frac{1}{a^2} + \frac{1}{b^2}\left(r_1 = \left| OP \right|, r_2 = \left| OQ \right| \right)$. 
+
+\item 若椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上中心张直角的弦$L$所在的直线方程为$Ax+By=1\left(AB\neq0\right)$，则
+\begin{multicols}{2} % 分两栏 若花括号中为3则是分三列
+（1）$\frac{1}{a^2} + \frac{1}{b^2} = A^2 + B^2$
+
+（2）$L=\frac{2\sqrt{a^4A^2+b^4B^2}}{a^2A^2+b^2B^2}$. 
+\end{multicols}
+
+\item 给定椭圆$C_1:b^2x^2+a^2y^2 = a^2b^2\left(a > b > 0\right)$，$C_2:b^2x^2+a^2y^2 = \left(\frac{a^2-b^2}{a^2+b^2}ab\right)^2$，则
+
+\item[(i)] 对$C_1$上任意给定的点$P\left(x_0,y_0\right)$，它的任一直角弦必须经过$C_2$上任一定点$M\left(\frac{a^2-b^2}{a^2+b^2}x_0,-\frac{a^2-b^2}{a^2+b^2}y_0\right)$, 
+
+\item[(ii)] 对$C_2$上任意给定的点$P'\left(x_0',y_0'\right)$在$C_1$上存在唯一的点$M'$，使得点$M'$的任意直角弦都经过点$P'$.
+
+\item 设$P\left(x_0, y_0\right)$为椭圆（或圆）$C: \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\left(a > 0, b > 0\right)$上的一点，$P_1P_2$为曲线$C$的动弦，且弦$PP_1$的斜率$k_1$与$PP_2$的斜率$k_2$都存在，则直线$P_1P_2$通过定点$M\left(mx_0,-my_0\right)\left(m \neq 1\right)$的充要条件是$$k_1 \cdot k_2 = -\frac{1+m}{1-m}\cdot \frac{b^2}{a^2}$$.
+
+\item 过椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\left(a > 0, b > 0\right)$上任一点$A\left(x_0,y_0\right)$任意作两条倾斜角互补的直线交椭圆于$B$、$C$两点，则直线$BC$有固定斜率$k_{BC}=\frac{b^2x_0}{a^2y_0}$. 
+
+\item 设椭圆$b^2x^2+a^2y^2 = a^2b^2\left(a > b > 0\right)$的左右焦点分别为$F_1$，$F_2$，点$P$为椭圆上任意一点，满足$\angle F_1PF_2 = \gamma$，则椭圆的焦点三角形的面积为$S_{\triangle F_1PF_2} = b^2 \tan\frac{\gamma}{2}$，且$P$点的坐标为$\left(\pm \frac{a}{c} \sqrt{c^2-b^2\tan^2\frac{\gamma}{2}},\pm\frac{b^2}{c}\tan\frac{\gamma}{2}\right)$. 
+
+\item 若$P$为椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上异于长轴端点的任一点，$F_1$，$F_2$是焦点，$\triangle PF_1F_2 = \alpha$，$\triangle PF_2F_1 = \beta$，则$\frac{a-c}{a+c} = \tan{\frac{\alpha}{2}}\tan{\frac{\beta}{2}}$. 
+
+\item 椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的焦半径公式：$\left| MF_1 \right| = a + ex_0$，$\left| MF_2 \right| = a - ex_0$，$F_1\left(-c,0\right)$，$F_2\left(c,0\right)$，$M\left(x_0,y_0\right)$. 
+
+\item 若椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的左、右焦点分别为$F_1$，$F_2$，左准线为$L$，则当$\sqrt{2}-1<e<1$时，可在椭圆上求一点$P$，使得$PF_1$是$P$到对应准线距离$d$与$PF2$的比例中项．
+
+\item $P$为椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上任一点,$F_1$、$F_2$为两焦点，$A$为椭圆内一定点，则$2a-\left|AF_2 \right| \leq \left| PA \right| + \left| PF_1 \right| \leq 2a + \left| AF_2 \right|$，当且仅当$A$，$F_2$，$P$三点共线时，等号成立. 
+
+\item 椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上存在两点关于直线$l:y=k\left(x - x_0\right)$对称的充要条件是$$x_0^2 \leq \frac{(a^2-b^2)^2}{a^2+b^2k^2}$$.
+
+\item 过椭圆焦半径的端点作椭圆的切线，与以长轴为直径的圆相交，则相应交点与相应焦点的连线必与切线垂直. 
+
+\item 过椭圆焦半径的端点作椭圆的切线交相应准线于一点，则该点与焦点的连线必与焦半径互相垂直. 
+
+\item $P$是椭圆$ 
+\begin{cases}
+    x=a\cos\varphi \\
+    y=b\sin\varphi
+\end{cases}(a>b>0)$上一点，则点$P$对椭圆两焦点张直角的充要条件是$e^2=\frac{1}{1+\sin^2\varphi}$. 
+
+\item 设$A$，$B$为椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} =k\left(k>0, k\neq 1\right)$上两点，其直线$AB$与椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$相交于$P$、$Q$两点，则$AP=BQ$. 
+
+\item 在椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$中，定长为$2m\left(0<m\leq a\right)$的弦中点的轨迹方程为：
+
+$m^2=\left[1-\left(\frac{x^2}{a^2} + \frac{y^2}{b^2}\right)\right]\left(a^2\cos^2\alpha+b^2\sin^2\alpha\right)$，其中$\tan\alpha=-\frac{bx}{ay}$，当$y=0$时，$\alpha=90^\circ$. 
+
+\item 设$S$为椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的通径，定长线段$L$的两端点$A$，$B$在椭圆上移动，记$\left| PF_1 AB\right|=l$，$M\left(x_0,y_0\right)$是$AB$的中点，则当$l \ge\Phi S$时，有$\left(x_0\right)_{max}=\frac{a^2}{c}-\frac{l}{2e}\left(c^2=a^2-b^2,e=\frac{c}{a}\right)$，当$l<\Phi S$时，有$\left(x_0\right)_{max}=\frac{a}{2b}\sqrt{4b^2-l^2},\left(x_0\right)_{min}=0$. 
+
+\item 椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$与直线$Ax+By+C=0$有公共点的充要条件是$A^2a^2+B^2b^2\ge C^2$. 
+
+\item 椭圆$\frac{\left(x-x_0\right)^2}{a^2} + \frac{\left(y-y_0\right)^2}{b^2} = 1$与直线$Ax+By+C=0$有公共点的充要条件是
+$$A^2a^2+B^2b^2\ge (Ax_0+By_0+C)^2$$. 
+
+\item 设椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的两个焦点为$F_1$，$F_2$，$P$（异于长轴端点）为椭圆上任意一点，在$\triangle PF_1F_2$中，记$\angle F_1PF_2 =\alpha$，$\angle PF_1F_2=\beta $，$\angle F_1F_2P = \gamma$，则有$\frac{\sin \alpha}{\sin\beta +\sin\gamma}=\frac{c}{a}=e$. 
+
+\item 经过椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的长轴的两端点$A_1$和$A_2$的切线，与椭圆上任一点的切线相交于$P_1$和$P_2$，则
+$\left|P_1A_1 \right|\cdot\left|P_2A_2 \right|=b^2$. 
+
+\item 已知椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$，$O$为坐标原点，$P$、$Q$为椭圆上两动点，且$OP\perp OQ$，则
+
+（1）$\frac{1}{\left|OP \right|^2}+\frac{1}{\left|OQ \right|^2}=\frac{1}{a^2}+\frac{1}{b^2}$;
+
+（2）$\left| OP\right|^2 + \left| OQ\right|^2 $的最小值是
+$\frac{4a^2b^2}{a^2+b^2}$; 
+
+（3）$S_{\triangle OPQ}$的最小值是$\frac{a^2b^2}{a^2+b^2}$. 
+
+\item $MN$是经过椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$焦点的任一弦，若$AB$是经过椭圆中心$O$且平行于$MN$的弦，则$\left|AB\right|^2=2a\left|MN\right|$. 
+
+\item $MN$是经过椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$焦点的任一弦，若过椭圆中心$O$的半弦$OP \perp MN$，则$$\frac{2}{a\left|MN\right|}+\frac{1}{\left|OP\right|^2} = \frac{1}{a^2} + \frac{1}{b^2}$$. 
+
+\item 设椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$，$M\left(m,0\right)$或$\left(0,m\right)$为其对称轴上除中心，顶点外的任一点，过$M$引一条直线与椭圆相交于$P$、$Q$两点，则直线$A_1P$、$A_2Q$（$A_1$、$A_2$为对称轴上的两顶点）的交点$N$在直线$l:x=\frac{a^2}{m}$或($y=\frac{b^2}{m}$)上. 
+
+\item 设过椭圆焦点$F$作直线与椭圆相交$P$、$Q$两点，$A$为椭圆长轴上一个顶点，连结$AP$和$AQ$分别交相应于焦点$F$的椭圆准线于$M$、$N$两点，则$NF\perp MF$. 
+
+\item 过椭圆一个焦点$F$的直线与椭圆交于$P$、$Q$两点，$A_1$、$A_2$为椭圆长轴上的顶点，$A_1P$和$A_2Q$交于点$M$，$A_2P$和$A_1Q$交于点$N$，则$MF \perp NF$. 
+
+\item 设椭圆方程$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$，则斜率为$k\left(k\neq 0\right)$的平行弦的中点必在直线$l:y=kx$的共轭直线$y=k'x$上，而且$kk'=-\frac{b^2}{a^2}$. 
+
+\item 设$A$、$B$、$C$、$D$为椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$上四点，$AB$、$BC$所在直线的倾斜角分别为$\alpha$、$\beta$，直线$AB$与$CD$相交于点$P$，且点$P$不在椭圆上，则$\frac{\left|PA\right|\cdot\left|PB\right|}{\left|PC\right|\cdot\left|PD\right|} = \frac{b^2\cos^2\beta+a^2\sin^2\beta}{b^2\cos^2\alpha+a^2\sin^2\alpha}$. 
+
+\item 已知椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$，点$P$为其上一点，$F_1$、$F_2$为椭圆的焦点，$\angle F_1PF_2$的外（内）角平分线为$l$，作$F_1$、$F_2$分别垂直$l$于$R$、$S$，当$P$跑遍整个椭圆时，$R$、$S$形成的轨迹方程是$x^2+y^2 = a^2
+\left(
+c^2y^2 = \frac{\left[a^2y^2 + b^2x\left(x\pm c\right) \right]^2}{a^2y^2 + b^2\left(x\pm c\right)^2}
+\right)$. 
+
+\item 设$\triangle ABC$内接于椭圆$\Gamma$，且$AB$为$\Gamma$的直径，$l$为$AB$的共轭直径所在的直线，$1$分别交直线$AC$、$BC$于$E$和$F$，又$D$为$l$上一点，则$CD$与椭圆$\Gamma$相切的充要条件是$D$为$EF$的中点. 
+
+\item 过椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的右焦点$F$作直线交椭圆右支于$M$、$N$两点，弦$MN$的垂直平分线交$x$轴于$P$，则$\frac{\left|PF\right|}{\left|MN\right|}=\frac{e}{2}$. 
+
+\item 设$A\left(x_1,y_1\right)$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上任一点，过$A$作一条斜率为$-\frac{b^2x_1}{a^2y_1}$的直线$L$，又设$d$是原点到直线$L$的距离，$r_1$、$r_2$分别是$A$到椭圆两焦点的距离，则$\sqrt{r_1r_2}d=ab$. 
+
+\item 已知椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$和$\frac{x^2}{a^2} + \frac{y^2}{b^2} = \lambda \left(0 < \lambda < 1\right)$，一直线顺次与它们相交于$A$、$B$、$C$、$D$四点，则$\left|AB \right| = \left|CD \right|$. 
+
+\item 已知椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$，$A$、$B$是椭圆上的两点，线段$AB$的中垂线与$x$轴相交于点$P(x_0,0)$，则$-\frac{a^2-b^2}{a}<x_0<\frac{a^2-b^2}{a}$. 
+
+\item 设$P$点是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上异于长轴端点的任一点，$F_1$、$F_2$为其焦点，记$\angle F_1PF_2=\theta$，则
+
+（1）$\left|PF_1\right|\cdot \left|PF_2\right|=\frac{2b^2}{1+\cos\theta}$
+
+（2）$S_{\triangle PF_1F_2} = b^2\tan\frac{\theta}{2}$
+
+\item 设过椭圆的长轴上一点$B(m,0)$作直线与椭圆相交于$P$、$Q$两点，$A$为椭圆长轴的左顶点，连结$AP$和$AQ$分别交相应于过$H$点的直线$MN: x=n$于$M$，$N$两点，则$$\angle MBN=90^\circ \Leftrightarrow \frac{a-m}{a+m} = \frac{a^2\left(n-m\right)^2}{b^2\left(n+a\right)^2}$$. 
+
+\item $L$是经过椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的长轴顶点$A$且与长轴垂直的直线，$E$、$F$是椭圆两个焦点，$e$是离心率，点$P$在$L$上，若$\angle EPF=\alpha$，则$\alpha$是锐角且$\sin\alpha\leq e$或$\alpha\leq \arcsin e$（当且仅当$\left|PH\right|=b$时取等号）. 
+
+\item $L$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的准线，$A$、$B$是椭圆的长轴两顶点，点$P$在$L$上，$e$是离心率，$\angle EPF=\alpha$，$H$是$L$与$x$轴的交点，$c$是半焦距，则$\alpha$是锐角且$\sin\alpha\leq e$或$\alpha\leq \arcsin e$（当且仅当$\left|PH\right|=\frac{ab}{c}$时取等号）. 
+
+\item $L$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的准线，$E$、$F$是两个焦点，$H$是$L$与$x$轴的交点，点$P$在$L$上，$\angle EPF = \alpha$，$e$是离心率，$c$是半焦距，则$\alpha$为锐角且$\sin\alpha\leq e^2$或$\alpha\leq \arcsin e^2$（当且仅当$\left|PH\right|=\frac{b}{c}\sqrt{a^2+c^2}$时取等号）. 
+
+\item 已知椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$，直线$L$通过其右焦点$F_2$，且与椭圆相交于$A$、$B$两点，将$A$、$B$与椭圆左焦点$F_1$连结起来，则$b^2\leq \left|F_1A \right|\cdot\left|F_1B \right|\leq \frac{\left(2a^2-b^2\right)^2}{a^2}$（当且仅当$AB \perp x$轴时右边不等式取等号，当且仅当$A$、$F_1$、$B$三点共线时左边不等式取等号）. 
+
+\item 设$A$、$B$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的长轴两端点，$P$是椭圆上一点，$\angle PAB = \alpha$，$\angle PBA = \beta$，$\angle BPA = \gamma$，$c$是椭圆的半焦距，$e$是椭圆的离心率，则有
+
+(1)$\left|PA \right| = \frac{2ab^2\left|\cos\alpha\right|}{a^2-c^2\cos^2\alpha}$，
+(2)$\tan\alpha\tan\beta=1-e^2$，
+(3)$S_{\triangle PAB} = \frac{2a^2b^2}{b^2-a^2}\cot\gamma$.
+
+\item 设$A$、$B$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$长轴上分别位于椭圆内（异于原点）、外部的两点，且$x$、$x$的横坐标$x_A\cdot x_B=a^2$，
+
+（1)若过$A$点引直线与这椭圆相交于$P$、$Q$两点，则$\angle PBA=\angle QBA$；
+
+（2）若过$B$引直线与这椭圆相交于$P$、$Q$两点，则$\angle PAB+\angle QAB=180^\circ$. 
+
+\item 设$A$、$B$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$长轴上分别位于椭圆内（异于原点）、外部的两点，
+
+(1)若过$A$点引直线与这椭圆相交于$P$、$Q$两点，（若$BP$交椭圆于两点，则$P$、$Q$不关于$x$轴对称），且$\angle PBA=\angle QBA$，则点$A$、$B$的横坐标$x_A$、$x_B$满足$x_A\cdot x_B=a^2$；
+
+（2)若过$B$点引直线与这椭圆相交于$P$、$Q$两点，且$\angle PAB+\angle QAB=180^\circ$，则点$A$、$B$的横坐标满足$x_A\cdot x_B=a^2$. 
+
+\item 设$A$, $A'$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$的长轴的两个端点，$QQ'$是与$AA'$垂直的弦，则直线$AQ$与$A'Q'$的交点$P$的轨迹是双曲线$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$. 
+
+\item 过椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的左焦点$F$作互相垂直的两条弦$AB$、$CD$则$$\frac{8ab^2}{a^2+b^2}\leq\left|AB\right| + \left|CD\right|\leq\frac{2\left(a^2+b^2\right)}{a}$$. 
+
+\item 到椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$两焦点的距离之比等于$\frac{a-c}{b}$（$c$为半焦距）的动点$M$的轨迹是姐妹圆$$\left(x\pm a\right)^2+y^2=b^2$$
+$e$为离心率. 
+
+\item 到椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的长轴两端点的距离之比等于$\frac{a-c}{b}$（$c$为半焦距）的动点$M$的轨迹是姐妹圆$$\left(x\pm \frac{a}{e}\right)^2+y^2=\left(\frac{b}{e}\right)^2$$
+$e$为离心率. 
+
+\item 到椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的两准线和$x$轴的交点的距离之比为$\frac{a-c}{b}$（$c$为半焦距）的动点的轨迹是姐妹圆$$\left(x\pm \frac{a}{e^2}\right)^2+y^2=\left(\frac{b}{e^2}\right)^2$$
+$e$为离心率. 
+
+\item 已知$P$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$上一个动点，$A$、$A'$是它长轴的两个端点，且$AQ\perp AP$，$A'Q\perp A'P$，则$Q$点的轨迹方程是$\frac{x^2}{a^2} + \frac{b^2y^2}{a^4} = 1$. 
+
+\item 椭圆的一条直径（过中心的弦）的长，为通过一个焦点且与此直径平行的弦长和长轴之长的比例中项. 
+
+\item 设椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的长轴的端点为$A$、$A'$，$P(x_1,y_1)$是椭圆上的点，过$P$作斜率为$-\frac{b^2x_1}{a^2y_1}$的直线$l$，过$A$、$A'$分别作垂直于长轴的直线交$l$于$M$、$M'$，则
+
+（1）$\left|AM\right|\cdot\left|A'M'\right|=b^2$;
+
+（2）四边形$MAA'M'$面积的最小值是$2ab$. 
+
+\item 已知椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的右准线$l$与$x$轴相交于点$E$，过椭圆右焦点$F$的直线与椭圆... ...，点$C$在右准线$l$上，且$BC//x$轴，则直线$AC$经过线段$EF$的中点. 
+
+\item $OA$、$OB$是椭圆$\frac{(x-a)^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a >0, b > 0\right)$的两条互相垂直的弦，$O$为坐标原点，则
+
+（1）直线$AB$必经过一个固定点$(\frac{2ab^2}{a^2+b^2},0)$;
+
+（2）以$OA$、$OB$为直径的两圆的另一个交点$Q$的轨迹方程是
+$\left(x-\frac{ab^2}{a^2+b^2}\right)^2 + y^2 = \left(\frac{ab^2}{a^2+b^2}\right)^2\left(x\neq 0\right)$. 
+
+\item $P(m,n)$是椭圆$\frac{(x-a)^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a >0, b > 0\right)$上的一个定点，$PA$、$PB$是两条互相垂直的弦，则
+
+（1）直线$AB$必经过一个固定点$(\frac{2ab^2+m\left(a^2-b^2\right)}{a^2+b^2},\frac{n\left(b^2-a^2\right)}{a^2+b^2})$;
+
+（2）以$PA$、$PB$为直径的两圆的另一个交点$Q$的轨迹方程是
+$$\left(x - \frac{ab^2+a^2m}{a^2+b^2}\right)^2 + \left(y-\frac{b^2n}{a^2+b^2}\right)^2 = \frac{a^2\left[b^4 +n^2\left(a^2-b^2\right)\right]}{\left(a^2+b^2\right)^2},x\neq m, y\neq n.$$ 
+
+\item 如果一个椭圆短半轴长为$b$，焦点$F_1$、$F_2$到直线$L$的距离分别为$d_1$、$d_2$，那么：
+
+（1）若$d_1d_2=b^2$，且$F_1$、$F_2$在$L$同侧$\Leftrightarrow$直线$L$和椭圆相切；
+
+（2）若$d_1d_2>b^2$，且$F_1$、$F_2$在$L$同侧$\Leftrightarrow$直线$L$和椭圆相离；
+
+（3）若$d_1d_2<b^2$，或$F_1$、$F_2$在$L$异侧$\Leftrightarrow$直线$L$和椭圆相交. 
+
+\item $AB$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的长轴，$N$是椭圆上的动点，过$N$的切线与过$A$、$B$的切线交于$C$、$D$两点，则梯形$ABCD$的对角线的交点$M$的轨迹方程是$\frac{x^2}{a^2} + \frac{4y^2}{b^2} = 1\left(y\neq 0\right)$. 
+
+\item 设点$P(x_0,y_0)$为椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > b > 0\right)$的内部一定点，$AB$是椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$过定点$P(x_0,y_0)$的任一弦，当弦$AB$平行（或重合）于椭圆长轴所在直线时，有$$\left(\left|PA \right|\cdot\left|PB\right|\right)_{min} = \frac{a^2b^2 - \left(a^2y_0^2 + b^2x_0^2\right)}{a^2}. $$
+
+\item 椭圆焦点三角形中，以焦半径为直径的圆必与以椭圆长轴为直径的圆相内切. 
+
+\item 椭圆焦点三角形的旁切圆必切长轴于非焦顶点同侧的长轴端点. 
+
+\item 椭圆两焦点到椭圆焦点三角形旁切圆的切线长为定值$a+c$与$a-c$. 
+
+\item 椭圆焦点三角形的非焦顶点到其内切圆的切线长为定值$a-c$. 
+
+\item 椭圆焦点三角形中，内点到一焦点的距离与以该焦点为端点的焦半径之比为常数$e$（离心率）. （注：在椭圆焦点三角形中，非焦顶点的内外角平分线与长轴交点分别称为内、外点）. 
+
+\item 椭圆焦点三角形中，内心将内点与非焦顶点连线段分成定比$e$. 
+
+\item 椭圆焦点三角形中，半焦距必为内、外点到椭圆中心的比例中项. 
+
+\item 椭圆焦点三角形中，椭圆中心到内点的距离、内点到同侧焦点的距离、半焦距及外点到同侧焦点的距离成比例. 
+
+\item 椭圆焦点三角形中，半焦距、外点与椭圆中心连线段、内点与同焦点连线段、外点与同侧焦点连线段成比例. 
+
+\item 椭圆焦点三角形中，过任一焦点向非焦顶点的外角平分线引垂线，则椭圆中心与垂足连线必与另一焦半径所在直线平行. 
+
+\item 椭圆焦点三角形中，过任一点向非焦顶点的外角平分线引垂线，则椭圆中心与垂足的距离为椭圆长半轴的长. 
+
+\item 椭圆焦点三角形中，过任一焦点向非焦顶点的外角平分线引垂线，垂足就是垂足同侧焦半径为直径的圆和椭圆长轴为直径的圆的切点. 
+
+\item 椭圆焦点三角形中，非焦顶点的外角平分线与焦半径、长轴所在直线的夹角的余弦的比为定值$e$. 
+
+\item 椭圆焦点三角形中，非焦顶点的法线即为该顶角的内角平分线. 
+
+\item 椭圆焦点三角形中，非焦顶点的切线即为该顶角的外角平分线. 
+
+\item 椭圆焦点三角形中，过非焦顶点的切线与椭圆长轴两端点处的切线相交，则以两交点为直径的圆必过两焦点. 
+
+\item 已知椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$（$a>0,b>0$）（包括圆在内）上有一点$P$，过点$P$分别作直线$y=\frac{b}{a}x$及$y=-\frac{b}{a}x$的平行线，与$x$轴分别交于$M$，$N$，交$y$轴于$R$、$Q$，$O$为原点，则：
+
+(1)$\left|OM\right|^2 + \left|ON\right|^2 = 2a^2$; 
+
+(2)$\left|OQ\right|^2 + \left|OR\right|^2 = 2b^2$. 
+
+\item 过平面上的$P$点作直线$l_1:y=\frac{b}{a}x$及$l_2:y=-\frac{b}{a}x$的平行线，分别交$x$轴于$M$、$N$两点，交$y$轴于$R$、$Q$，
+
+(1)若$\left|OM\right|^2 + \left|ON\right|^2 = 2a^2$，则$P$的轨迹方程是$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > 0, b > 0\right)$；
+
+(2)若$\left|OQ\right|^2 + \left|OR\right|^2 = 2b^2$，则$P$的轨迹方程是$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > 0, b > 0\right)$.
+
+\item 点$P$为椭圆$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > 0, b > 0\right)$（包括圆在内）在第一象限的弧上任意一点，过$P$引$x$轴、$y$轴的平行线，交$x$轴、$y$轴于$N$、$M$，交直线$y=-\frac{b}{a}x$于$Q$，$R$，记$\triangle OMQ$与$\triangle ONR$的面积为$S_1$、$S_2$，则
+$S_1 + S_2 = \frac{ab}{2}. $
+
+\item 点$P$为第一象限内的一点，过$P$引$x$轴、$y$轴的平行线，交$x$轴、$y$轴于$N$、$M$，交直线$y=-\frac{b}{a}x$于$Q$、$R$，记$\triangle 0MQ$与$\triangle 0NR$的面积为$S_1$、$S_2$，已知$S_1 + S_2 = \frac{ab}{2}$，则点$P$的轨迹方程是$$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \left(a > 0, b > 0\right). $$
+
+\end{enumerate}
+
+
+\end{document}
